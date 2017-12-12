@@ -11,8 +11,8 @@ public class NewTest {
 	@Test
 	  public void testgooglrsearch() throws InterruptedException{
 		
-		//System.setProperty("webdriver.gecko.driver","/root/geckodriver");
-		System.setProperty("webdriver.gecko.driver","/home/ec2-user/Desktop/geckodriver");
+		System.setProperty("webdriver.gecko.driver","/opt/geckodriver");
+		//System.setProperty("webdriver.gecko.driver","/home/ec2-user/Desktop/geckodriver");
 	    //System.setProperty("webdriver.firefox.bin","/bin/firefox");
 		
 		
